@@ -15,7 +15,7 @@ import static org.junit.jupiter.api.Assertions.*;
 @ActiveProfiles("test")
 class LoadTestExecutionTest {
 
-    private static final String GATLING_TEST_DIR = "src/test/scala/dev/Rajkaran_122/distributedratelimiter/loadtest";
+    private static final String GATLING_TEST_DIR = "src/test/scala/com/Rajkaran_122/distributedratelimiter/loadtest";
 
     @BeforeEach
     void setUp() {

@@ -257,7 +257,7 @@ class GeographicRateLimitControllerTest {
         request.setRemoteAddr("10.0.0.1");
 
         // When
-//         ResponseEntity<Map<String, Object>> response = controller.detectLocation(request, null);
+        ResponseEntity<Map<String, Object>> response = controller.detectLocation(request, null);
 
         // Then
         // The method should extract the first IP from X-Forwarded-For
@@ -272,7 +272,7 @@ class GeographicRateLimitControllerTest {
         request.setRemoteAddr("10.0.0.1");
 
         // When
-//         ResponseEntity<Map<String, Object>> response = controller.detectLocation(request, null);
+        ResponseEntity<Map<String, Object>> response = controller.detectLocation(request, null);
 
         // Then
         // The method should use X-Real-IP when X-Forwarded-For is not present
@@ -286,7 +286,7 @@ class GeographicRateLimitControllerTest {
         request.setRemoteAddr("10.0.0.1");
 
         // When
-//         ResponseEntity<Map<String, Object>> response = controller.detectLocation(request, null);
+        ResponseEntity<Map<String, Object>> response = controller.detectLocation(request, null);
 
         // Then
         // Should fall back to remote address when no proxy headers
