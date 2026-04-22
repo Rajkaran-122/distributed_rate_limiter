@@ -28,6 +28,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 @Testcontainers
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 @ActiveProfiles("test")
+@SuppressWarnings("unchecked")
 class DockerContainerIntegrationTest {
 
     @Container
@@ -98,7 +99,6 @@ class DockerContainerIntegrationTest {
         assertThat(response.getBody().get("status")).isEqualTo("UP");
 
         // Verify Redis health is included
-        @SuppressWarnings("unchecked")
         Map<String, Object> components = (Map<String, Object>) response.getBody().get("components");
         if (components != null) {
             assertThat(components).containsKey("redis");
