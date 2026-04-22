@@ -37,6 +37,7 @@ public class RateLimitControllerTest {
     private RateLimiterService rateLimiterService;
 
     @Autowired
+    @SuppressWarnings("unused")
     private com.Rajkaran_122.distributedratelimiter.ratelimit.CompositeRateLimiterService compositeRateLimiterService;
 
     @Autowired

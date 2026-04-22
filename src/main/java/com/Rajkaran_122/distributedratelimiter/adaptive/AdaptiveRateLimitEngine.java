@@ -38,6 +38,7 @@ public class AdaptiveRateLimitEngine {
 
     // Configuration
     private final boolean enabled;
+    @SuppressWarnings("unused")
     private final long evaluationIntervalMs;
     private final double minConfidenceThreshold;
     private final double maxAdjustmentFactor;

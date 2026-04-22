@@ -35,12 +35,15 @@ public class RateLimitConfigControllerTest {
     private ObjectMapper objectMapper;
 
     @Autowired
+    @SuppressWarnings("unused")
     private RateLimiterConfiguration configuration;
 
     @Autowired
+    @SuppressWarnings("unused")
     private ConfigurationResolver configurationResolver;
 
     @Autowired
+    @SuppressWarnings("unused")
     private RateLimiterService rateLimiterService;
 
     @Autowired

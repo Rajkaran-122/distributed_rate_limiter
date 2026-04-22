@@ -72,6 +72,7 @@ class DockerImageTest {
 
     @Test
     @DisplayName("Application should start in Docker container")
+    @SuppressWarnings("resource")
     void testApplicationStartup() {
         // Use a pre-built image or build one for testing
         // This is a placeholder test - in real CI, we'd test the actual built image

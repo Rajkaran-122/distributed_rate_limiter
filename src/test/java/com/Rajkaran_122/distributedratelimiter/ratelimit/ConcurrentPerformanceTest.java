@@ -23,6 +23,7 @@ class ConcurrentPerformanceTest {
 
     @Container
     @ServiceConnection
+    @SuppressWarnings("resource")
     static GenericContainer<?> redis = new GenericContainer<>("redis:7.4.1-alpine")
             .withExposedPorts(6379);
 

@@ -27,6 +27,7 @@ public class GeographicRateLimitService {
     private final GeographicConfigurationResolver geographicConfigResolver;
     private final RateLimiterService rateLimiterService;
     private final ConfigurationResolver standardConfigResolver;
+    @SuppressWarnings("unused")
     private final GeographicAwareConfigurationResolver geoAwareConfigResolver;
 
     @Autowired
