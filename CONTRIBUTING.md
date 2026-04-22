@@ -1,4 +1,4 @@
-﻿> [!WARNING]
+> [!WARNING]
 > **PROPRIETARY & CONFIDENTIAL**
 > This repository and all its contents are the exclusive property of **Rajkaran_122**. Unauthorized copying, modification, distribution, or reuse is strictly prohibited. This is NOT an open source project.
 
@@ -6,7 +6,7 @@
 
 Thank you for your interest in contributing to the Distributed Rate Limiter! We welcome contributions from developers of all experience levels.
 
-## 🚀 Quick Start
+## Quick Start
 
 1. **Fork** the repository
 2. **Clone** your fork: `git clone https://github.com/your-username/distributed-rate-limiter.git`
@@ -14,7 +14,7 @@ Thank you for your interest in contributing to the Distributed Rate Limiter! We 
 4. **Run tests**: `./mvnw test`
 5. **Start contributing**!
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Code of Conduct](#code-of-conduct)
 - [Getting Started](#getting-started)
@@ -25,11 +25,11 @@ Thank you for your interest in contributing to the Distributed Rate Limiter! We 
 - [Submitting Changes](#submitting-changes)
 - [Release Process](#release-process)
 
-## 📖 Code of Conduct
+## Code of Conduct
 
 This project follows the [Contributor Covenant Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/). By participating, you are expected to uphold this code.
 
-## 🏁 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -78,7 +78,7 @@ distributed-rate-limiter/
 └── k8s/                          # Kubernetes manifests
 ```
 
-## 🔧 Making Changes
+## Making Changes
 
 ### Branch Naming
 
@@ -131,7 +131,7 @@ distributed-rate-limiter/
 - Handle **connection failures** gracefully
 - Test with **Testcontainers** Redis
 
-## 🧪 Testing Guidelines
+## Testing Guidelines
 
 ### Test Categories
 
@@ -214,7 +214,7 @@ class RateLimitControllerIntegrationTest {
 - **Use test profiles** for different configurations
 - **Cleanup resources** in `@AfterEach` methods
 
-## 📚 Documentation
+## Documentation
 
 ### Code Documentation
 - **JavaDoc**: Document public APIs and complex methods
@@ -241,7 +241,7 @@ public boolean tryConsume(long tokensToConsume) {
 }
 ```
 
-## 📤 Submitting Changes
+## Submitting Changes
 
 ### Pull Request Process
 
@@ -284,7 +284,7 @@ Brief description of changes and motivation.
 3. **Testing**: All tests must pass including new ones
 4. **Documentation**: Must be updated for user-facing changes
 
-## 🚀 Release Process
+## Release Process
 
 ### Semantic Versioning
 
@@ -302,7 +302,7 @@ We follow [Semantic Versioning](https://semver.org/):
 - [ ] Docker image builds successfully
 - [ ] Release notes prepared
 
-## 🏷️ Issue Labels
+## Issue Labels
 
 - `bug` - Something isn't working
 - `enhancement` - New feature or request
@@ -312,7 +312,7 @@ We follow [Semantic Versioning](https://semver.org/):
 - `good first issue` - Good for newcomers
 - `help wanted` - Extra attention needed
 
-## 💬 Communication
+## Communication
 
 ### Getting Help
 
@@ -327,7 +327,7 @@ We follow [Semantic Versioning](https://semver.org/):
 3. **Include details**: Version, environment, error messages
 4. **Minimal reproduction**: Simplest example that shows the issue
 
-## 🎯 Areas for Contribution
+## Areas for Contribution
 
 ### High Impact Areas
 - **Performance optimization**: Algorithm improvements, caching
@@ -342,7 +342,7 @@ We follow [Semantic Versioning](https://semver.org/):
 - **Configuration**: Add validation for properties
 - **Logging**: Improve log messages and structure
 
-## 🙏 Recognition
+## Recognition
 
 Contributors will be:
 - **Listed** in release notes
@@ -350,7 +350,7 @@ Contributors will be:
 - **Invited** to project discussions
 - **Credited** in significant feature announcements
 
-## 📞 Contact
+## Contact
 
 - **Maintainer**: Rajkaran_122
 - **GitHub**: [@uppnrise](https://github.com/uppnrise)
@@ -358,4 +358,4 @@ Contributors will be:
 
 ---
 
-Thank you for contributing to make distributed rate limiting better for everyone! 🎉
+Thank you for contributing to make distributed rate limiting better for everyone!

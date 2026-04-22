@@ -1,4 +1,4 @@
-﻿> [!WARNING]
+> [!WARNING]
 > **PROPRIETARY & CONFIDENTIAL**
 > This repository and all its contents are the exclusive property of **Rajkaran_122**. Unauthorized copying, modification, distribution, or reuse is strictly prohibited. This is NOT an open source project.
 
@@ -6,7 +6,7 @@
 
 <img src="drl-logo.png" alt="Distributed Rate Limiter Logo" width="200" height="200">
 
-# ðŸš€ Distributed Rate Limiter
+# Distributed Rate Limiter
 
 **High-performance, Redis-backed rate limiter service with multiple algorithms and REST API**
 
@@ -16,31 +16,31 @@
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE.md)
 [![Build Status](https://github.com/uppnrise/distributed-rate-limiter/workflows/CI%2FCD%20Pipeline/badge.svg)](https://github.com/uppnrise/distributed-rate-limiter/actions)
 
-[ðŸ“¦ Download](#-installation) â€¢ [ðŸ“– Documentation](#-documentation) â€¢ [ðŸš€ Quick Start](#-quick-start) â€¢ [ðŸ’¡ Examples](#-examples)
+[Download](#installation) • [Documentation](#documentation) • [Quick Start](#quick-start) • [Examples](#examples)
 
 </div>
 
 ---
 
-## ðŸŽ¯ Overview
+## Overview
 
 A production-ready distributed rate limiter supporting **five algorithms** (Token Bucket, Sliding Window, Fixed Window, Leaky Bucket, and Composite) with Redis backing for high-performance API protection. Perfect for microservices, SaaS platforms, and any application requiring sophisticated rate limiting with algorithm flexibility, multi-dimensional limits, and traffic shaping capabilities.
 
-### âœ¨ Key Features
+### Key Features
 
-- ðŸƒâ€â™‚ï¸ **High Performance**: 50,000+ requests/second with <2ms P95 latency
-- ðŸŽ¯ **Five Algorithms**: Token Bucket, Sliding Window, Fixed Window, Leaky Bucket, and Composite for multi-algorithm traffic shaping
-- ðŸ¤– **Adaptive Rate Limiting**: ML-driven automatic limit optimization based on traffic patterns and system health (NEW!)
-- ðŸŒ **Geographic Rate Limiting**: Location-aware rate limits with CDN header support and compliance zone management
-- ðŸŒ **Distributed**: Redis-backed for multi-instance deployments
-- âš¡ **Production Ready**: Comprehensive monitoring, health checks, and observability
-- ðŸ›¡ï¸ **Thread Safe**: Concurrent request handling with atomic operations
-- ðŸ“Š **Rich Metrics**: Built-in Prometheus metrics and performance monitoring
-- ðŸ§ª **Thoroughly Tested**: 472+ tests including integration and load testing
-- ðŸ³ **Container Ready**: Docker support with multi-stage builds
-- ðŸ”§ **Flexible Configuration**: Per-key limits, burst handling, and dynamic rules
+- **High Performance**: 50,000+ requests/second with <2ms P95 latency
+- **Five Algorithms**: Token Bucket, Sliding Window, Fixed Window, Leaky Bucket, and Composite for multi-algorithm traffic shaping
+- **Adaptive Rate Limiting**: ML-driven automatic limit optimization based on traffic patterns and system health (NEW!)
+- **Geographic Rate Limiting**: Location-aware rate limits with CDN header support and compliance zone management
+- **Distributed**: Redis-backed for multi-instance deployments
+- **Production Ready**: Comprehensive monitoring, health checks, and observability
+- **Thread Safe**: Concurrent request handling with atomic operations
+- **Rich Metrics**: Built-in Prometheus metrics and performance monitoring
+- **Thoroughly Tested**: 472+ tests including integration and load testing
+- **Container Ready**: Docker support with multi-stage builds
+- **Flexible Configuration**: Per-key limits, burst handling, and dynamic rules
 
-### ðŸ“Š Performance Characteristics
+### Performance Characteristics
 
 | Metric | Value |
 |--------|--------|
@@ -52,7 +52,7 @@ A production-ready distributed rate limiter supporting **five algorithms** (Toke
 
 ---
 
-## ðŸ“š Documentation
+## Documentation
 
 ### API Documentation
 - **[Interactive API Documentation](http://localhost:8080/swagger-ui/index.html)** - Swagger UI (when running)
@@ -61,25 +61,25 @@ A production-ready distributed rate limiter supporting **five algorithms** (Toke
 
 > **Note**: The API provides 18 endpoints covering rate limiting, configuration management, administrative operations, performance monitoring, benchmarking, and system metrics.
 
-### ðŸŽ¨ Interactive Web Dashboard
+### Interactive Web Dashboard
 
 A modern, real-time React-based dashboard for monitoring and managing your distributed rate limiter.
 
 <div align="center">
 
-**[ðŸ“– Full Dashboard Documentation](examples/web-dashboard/README.md)** â€¢ **[ðŸš€ Quick Start](examples/web-dashboard/README.md#-quick-start)** â€¢ **[ðŸŽ¬ Live Demo](#-dashboard-screenshots)**
+**[Full Dashboard Documentation](examples/web-dashboard/README.md)** • **[Quick Start](examples/web-dashboard/README.md#quick-start)** • **[Live Demo](#dashboard-screenshots)**
 
 ![Dashboard Overview](examples/web-dashboard/public/screenshots/dashboard-preview.png)
 
 </div>
 
 **Features:**
-- **ðŸ“Š Real-time Monitoring** - Live metrics with 5-second updates from backend
-- **ðŸŽ¯ Algorithm Comparison** - Interactive simulation of Token Bucket, Sliding Window, Fixed Window, and Leaky Bucket
-- **ðŸ“ˆ Load Testing** - Production-grade benchmarking via backend API
-- **âš™ï¸ Configuration Management** - CRUD operations for global, per-key, and pattern-based limits
-- **ðŸ”‘ API Key Management** - Active keys tracking with statistics and admin controls
-- **ðŸ“‰ Analytics** - Historical performance trends (demo/preview feature)
+- **Real-time Monitoring** - Live metrics with 5-second updates from backend
+- **Algorithm Comparison** - Interactive simulation of Token Bucket, Sliding Window, Fixed Window, and Leaky Bucket
+- **Load Testing** - Production-grade benchmarking via backend API
+- **Configuration Management** - CRUD operations for global, per-key, and pattern-based limits
+- **API Key Management** - Active keys tracking with statistics and admin controls
+- **Analytics** - Historical performance trends (demo/preview feature)
 
 **Tech Stack:** React 18 + TypeScript + Vite + Tailwind CSS + shadcn/ui + Recharts
 
@@ -123,11 +123,11 @@ See **[Dashboard README](examples/web-dashboard/README.md)** for complete setup 
 
 ---
 
-## ðŸ“¸ Dashboard Screenshots
+## Dashboard Screenshots
 
 The web dashboard provides a comprehensive interface for monitoring and managing the rate limiter. Below are the key pages:
 
-### ðŸ“Š Live Monitoring Dashboard
+### Live Monitoring Dashboard
 ![Dashboard Live Metrics](examples/web-dashboard/public/screenshots/dashboard-preview.png)
 
 Real-time visualization of rate limiting activity:
@@ -136,7 +136,7 @@ Real-time visualization of rate limiting activity:
 - **Recent Activity Feed**: Live stream of rate limit checks with allow/deny status
 - **Trend Charts**: Request rate and token consumption over time
 
-### ðŸ§ª Load Testing Interface
+### Load Testing Interface
 ![Load Testing Execution](examples/web-dashboard/public/screenshots/load-testing-preview.png)
 
 Execute and analyze load tests against the backend:
@@ -145,7 +145,7 @@ Execute and analyze load tests against the backend:
 - **Results Dashboard**: Comprehensive statistics from backend `/api/benchmark/run` endpoint
 - **Historical Comparison**: Compare test runs to detect performance regressions
 
-### âš™ï¸ Configuration Management
+### Configuration Management
 ![Configuration CRUD](examples/web-dashboard/public/screenshots/configuration-preview.png)
 
 Manage rate limiter configurations dynamically:
@@ -154,7 +154,7 @@ Manage rate limiter configurations dynamically:
 - **Algorithm Selection**: Switch between Token Bucket, Sliding Window, Fixed Window, Leaky Bucket, Composite
 - **Live Updates**: Changes reflected immediately via `/api/ratelimit/config` endpoints
 
-### ðŸ”‘ API Keys Management
+### API Keys Management
 ![API Keys Table](examples/web-dashboard/public/screenshots/api-keys-preview.png)
 
 Centralized view of active rate limit keys:
@@ -163,7 +163,7 @@ Centralized view of active rate limit keys:
 - **Reset Operations**: Clear individual keys or bulk reset via admin API
 - **Algorithm Assignment**: View which algorithm each key uses
 
-### ðŸ“ˆ Analytics & Trends (Demo Preview)
+### Analytics & Trends (Demo Preview)
 ![Analytics Trends](examples/web-dashboard/public/screenshots/analytics-preview.png)
 
 Historical analytics and insights *(displays simulated data for preview purposes)*:
@@ -172,9 +172,9 @@ Historical analytics and insights *(displays simulated data for preview purposes
 - **Geographic Distribution**: Request origins by region
 - **Compliance Reporting**: Rate limit violations and threshold breaches
 
-> **Note**: This page displays simulated analytics data for preview purposes. Historical analytics features require a time-series database backend (InfluxDB, Prometheus, or TimescaleDB) with data aggregation endpoints. See the [Analytics Roadmap](examples/web-dashboard/README.md#-analytics-roadmap-future-implementation) for implementation details.
+> **Note**: This page displays simulated analytics data for preview purposes. Historical analytics features require a time-series database backend (InfluxDB, Prometheus, or TimescaleDB) with data aggregation endpoints. See the [Analytics Roadmap](examples/web-dashboard/README.md#analytics-feature-roadmap) for implementation details.
 
-### ðŸ§® Algorithm Comparison
+### Algorithm Comparison
 ![Algorithms Education](examples/web-dashboard/public/screenshots/algorithms-preview.png)
 
 Educational page for understanding rate limiting algorithms:
@@ -185,7 +185,7 @@ Educational page for understanding rate limiting algorithms:
 
 ---
 
-## ðŸ“¦ Installation
+## Installation
 
 ### Option 1: Download JAR (Recommended)
 
@@ -220,7 +220,7 @@ java -jar target/distributed-rate-limiter-1.0.0.jar
 
 ---
 
-## ðŸš€ Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -272,10 +272,10 @@ npm install && npm run dev
 ```
 
 The dashboard provides:
-- ðŸ“Š Real-time monitoring and metrics
-- ðŸ”§ Interactive algorithm testing
-- âš™ï¸ Visual configuration management
-- ðŸ§ª Built-in load testing suite
+- Real-time monitoring and metrics
+- Interactive algorithm testing
+- Visual configuration management
+- Built-in load testing suite
 
 #### Option B: Using cURL
 
@@ -296,7 +296,7 @@ curl -X POST http://localhost:8080/api/ratelimit/check \
 }
 ```
 
-### ðŸŒ Access Points
+### Access Points
 
 The application will be available at:
 - **API**: http://localhost:8080
@@ -307,7 +307,7 @@ The application will be available at:
 
 ---
 
-## ðŸ’¡ Examples
+## Examples
 
 ### Basic Rate Limiting
 
@@ -577,50 +577,37 @@ public class ProtectedController {
 
 ---
 
-## ðŸ—ï¸ Architecture
+## Architecture
 
 ### System Architecture
 
-```
-â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”    â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”    â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
-â”‚   Client App    â”‚â”€â”€â”€â–¶â”‚  Rate Limiter   â”‚â”€â”€â”€â–¶â”‚     Redis       â”‚
-â”‚                 â”‚    â”‚   (Port 8080)   â”‚    â”‚   (Distributed  â”‚
-â”‚                 â”‚    â”‚                 â”‚    â”‚     State)      â”‚
-â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜    â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜    â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
-                                â”‚
-                                â–¼
-                       â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
-                       â”‚   Monitoring    â”‚
-                       â”‚   & Metrics     â”‚
-                       â”‚  (Prometheus)   â”‚
-                       â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
 ```
 
 ### Rate Limiting Algorithms
 
 The rate limiter supports five different algorithms optimized for different use cases:
 
-#### ðŸª£ Token Bucket (Default)
+#### Token Bucket (Default)
 - **Best for**: APIs requiring burst handling with smooth long-term rates
 - **Characteristics**: Allows bursts up to capacity, gradual token refill
 - **Use cases**: General API rate limiting, user-facing applications
 
-#### ðŸŒŠ Sliding Window
+#### Sliding Window
 - **Best for**: Consistent rate enforcement with precise timing
 - **Characteristics**: Tracks requests within a sliding time window
 - **Use cases**: Critical APIs requiring strict rate adherence
 
-#### ðŸ• Fixed Window  
+#### Fixed Window  
 - **Best for**: Memory-efficient rate limiting with predictable resets
 - **Characteristics**: Counter resets at fixed intervals, low memory usage
 - **Use cases**: High-scale scenarios, simple rate limiting needs
 
-#### ðŸš° Leaky Bucket
+#### Leaky Bucket
 - **Best for**: Traffic shaping and consistent output rates
 - **Characteristics**: Queue-based processing at constant rate, no bursts allowed
 - **Use cases**: Downstream service protection, SLA compliance, network-like behavior
 
-#### ðŸ”„ Composite (**NEW**)
+#### Composite (NEW)
 - **Best for**: Enterprise scenarios requiring multiple simultaneous limits
 - **Characteristics**: Combines multiple algorithms with configurable combination logic
 - **Use cases**: SaaS platforms (API + bandwidth + compliance), Financial systems (rate + volume + velocity), Multi-tenant hierarchical limits
@@ -630,7 +617,7 @@ The rate limiter supports five different algorithms optimized for different use 
 
 ---
 
-## ðŸ”§ Configuration
+## Configuration
 
 ### Basic Configuration
 
@@ -693,7 +680,7 @@ curl -X POST http://localhost:8080/api/ratelimit/config/keys/vip_user \
 
 ---
 
-## ðŸ›¡ï¸ API Endpoints
+## API Endpoints
 
 The application provides a comprehensive REST API with the following endpoints:
 
@@ -738,7 +725,7 @@ The application provides a comprehensive REST API with the following endpoints:
 
 ---
 
-## ðŸ“Š Monitoring & Observability
+## Monitoring & Observability
 
 ### Built-in Metrics
 
@@ -777,7 +764,7 @@ curl http://localhost:8080/actuator/health/rateLimiter
 
 ---
 
-## ðŸ›¡ï¸ Security
+## Security
 
 ### API Key Authentication
 
@@ -802,7 +789,7 @@ ratelimiter.security.ip.blacklist=192.168.1.100
 
 ---
 
-## ðŸš€ Production Deployment
+## Production Deployment
 
 ### Docker Environment
 
@@ -877,7 +864,7 @@ spec:
 
 ---
 
-## ðŸ“ˆ Performance Benchmarks
+## Performance Benchmarks
 
 ### Throughput Benchmarks
 
@@ -897,7 +884,7 @@ spec:
 
 ---
 
-## ðŸ§ª Testing
+## Testing
 
 ### Running Tests
 
@@ -937,7 +924,7 @@ The project includes comprehensive integration tests using Testcontainers:
 
 ---
 
-## ðŸ—ï¸ Development
+## Development
 
 ### Building from Source
 
@@ -978,7 +965,7 @@ java -version  # Should show OpenJDK 21.x.x
 
 ---
 
-## ðŸ¤ Contributing
+## Contributing
 
 We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
 
@@ -991,7 +978,7 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 
 ---
 
-## ðŸ“š Resources
+## Resources
 
 - **[API Documentation](docs/API.md)** - Complete REST API reference
 - **[Configuration Guide](docs/CONFIGURATION.md)** - Detailed configuration options
@@ -1001,19 +988,19 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 
 ---
 
-## ðŸ¤– Development with AI
+## Development with AI
 
 This project was developed with assistance from **GitHub Copilot**, which helped accelerate development while maintaining high standards for code quality, testing, and documentation.
 
 ---
 
-## ðŸ“„ License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
 ---
 
-## ðŸ™ Acknowledgments
+## Acknowledgments
 
 - **Spring Boot Team** - For the excellent framework
 - **Redis Labs** - For the high-performance data store
@@ -1022,7 +1009,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ---
 
-## ðŸ†˜ Support
+## Support
 
 - **Documentation**: Check the [docs/](docs/) directory for comprehensive guides
 - **Issues**: Report bugs and request features via [GitHub Issues](https://github.com/uppnrise/distributed-rate-limiter/issues)
@@ -1032,8 +1019,8 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 <div align="center">
 
-**Built with â¤ï¸ for the developer community**
+**Built for the developer community**
 
-[â­ Star this project](https://github.com/uppnrise/distributed-rate-limiter) if you find it useful!
+[Star this project](https://github.com/uppnrise/distributed-rate-limiter) if you find it useful!
 
 </div>

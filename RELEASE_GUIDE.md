@@ -1,6 +1,6 @@
-﻿# Distributed Rate Limiter v1.0.0 - Release Summary
+# Distributed Rate Limiter v1.0.0 - Release Summary
 
-## 🎯 **Best Deployment Options for v1.0.0**
+## Best Deployment Options for v1.0.0
 
 ### **1. JAR File (Recommended for Most Use Cases)**
 ```bash
@@ -14,14 +14,14 @@ java -jar distributed-rate-limiter-1.0.0.jar \
   --server.port=8080
 ```
 
-**✅ Best For:**
+**Best For:**
 - Traditional server deployments
 - Cloud platforms (AWS EC2, Azure VMs, GCP Compute)
 - Application servers (Tomcat, JBoss environments)
 - Development and testing
 - Corporate environments with existing Java infrastructure
 
-**📊 Specifications:**
+**Specifications:**
 - **File Size**: ~42MB (self-contained with all dependencies)
 - **Memory Usage**: ~200MB baseline + rate limit buckets
 - **Startup Time**: ~2 seconds
@@ -38,20 +38,20 @@ docker run -p 8080:8080 \
   ghcr.io/uppnrise/distributed-rate-limiter:1.0.0
 ```
 
-**✅ Best For:**
+**Best For:**
 - Microservices architectures
 - Kubernetes deployments
 - Cloud-native applications
 - CI/CD pipelines
 - Development environments
 
-**📊 Specifications:**
+**Specifications:**
 - **Image Size**: ~350MB (optimized layers)
 - **Base Image**: OpenJDK 21 Alpine
 - **Multi-architecture**: linux/amd64, linux/arm64
 - **Security**: Non-root user, minimal attack surface
 
-## 🚀 **Quick Release Build**
+## Quick Release Build
 
 Use the automated release script:
 
@@ -65,7 +65,7 @@ Use the automated release script:
 # - release-1.0.0/ directory with deployment package
 ```
 
-## 📦 **What You Get**
+## What You Get
 
 ### **Complete Release Package (`release-1.0.0/`)**
 ```
@@ -83,7 +83,7 @@ release-1.0.0/
 └── LICENSE.md                            # MIT license
 ```
 
-## 🏗️ **Production Deployment Scenarios**
+## Production Deployment Scenarios
 
 ### **Scenario 1: Enterprise On-Premises**
 ```bash
@@ -129,7 +129,7 @@ spec:
           value: "redis-cluster"
 ```
 
-## ⚡ **Performance & Scaling**
+## Performance & Scaling
 
 ### **Single Instance Performance**
 - **Throughput**: 50,000+ requests/second
@@ -148,7 +148,7 @@ spec:
 - **Throughput**: Redis should handle 2x application throughput
 - **High Availability**: Redis Cluster or Sentinel recommended for production
 
-## 🔧 **Configuration Examples**
+## Configuration Examples
 
 ### **Development Environment**
 ```properties
@@ -179,7 +179,7 @@ server.tomcat.threads.max=200
 server.tomcat.accept-count=100
 ```
 
-## 📊 **Monitoring & Observability**
+## Monitoring & Observability
 
 ### **Built-in Endpoints**
 - **Health**: `GET /actuator/health`
@@ -200,15 +200,15 @@ curl http://localhost:8080/metrics | grep -E "(rate_limit|redis|jvm)"
 - jvm_memory_used_bytes
 ```
 
-## 🔐 **Security Considerations**
+## Security Considerations
 
 ### **Production Security Checklist**
-- ✅ Enable API key authentication
-- ✅ Configure IP filtering
-- ✅ Use HTTPS in production
-- ✅ Secure Redis with authentication
-- ✅ Regular security updates
-- ✅ Monitor for unusual patterns
+- Enable API key authentication
+- Configure IP filtering
+- Use HTTPS in production
+- Secure Redis with authentication
+- Regular security updates
+- Monitor for unusual patterns
 
 ### **Network Security**
 ```yaml
@@ -236,7 +236,7 @@ spec:
           app: redis
 ```
 
-## 🎉 **What's Next**
+## What's Next
 
 ### **Immediate Actions**
 1. **Test the JAR**: `java -jar target/distributed-rate-limiter-1.0.0.jar`
@@ -256,7 +256,7 @@ spec:
 3. **Authentication**: Configure API key validation
 4. **Rate Limit Policies**: Define business rules
 
-## 📞 **Support & Resources**
+## Support & Resources
 
 - **Documentation**: Complete guides in the release package
 - **Examples**: Working code samples for all major languages
@@ -265,4 +265,4 @@ spec:
 
 ---
 
-**🎯 Recommendation**: Start with the JAR deployment for simplicity, then move to Docker when you need container orchestration. The automated build script makes it easy to create both options.
+**Recommendation**: Start with the JAR deployment for simplicity, then move to Docker when you need container orchestration. The automated build script makes it easy to create both options.

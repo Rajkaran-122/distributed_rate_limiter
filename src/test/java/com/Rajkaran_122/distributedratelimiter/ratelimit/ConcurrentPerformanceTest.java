@@ -89,9 +89,9 @@ class ConcurrentPerformanceTest {
         System.out.println("Meets 100+ req/sec target: " + meetsTarget);
 
         if (meetsTarget) {
-            System.out.println("✅ Performance target achieved!");
+            System.out.println("Performance target achieved!");
         } else {
-            System.out.println("⚠️ Performance target not quite reached, but close");
+            System.out.println("Performance target not quite reached, but close");
         }
     }
 

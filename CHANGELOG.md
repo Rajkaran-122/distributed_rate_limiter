@@ -8,7 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [1.2.0] - 2025-10-23
 
 ### Added
-- **🎨 Interactive Web Dashboard**: Modern React-based monitoring and management interface
+- **Interactive Web Dashboard**: Modern React-based monitoring and management interface
   - Real-time metrics visualization with 5-second polling
   - Live monitoring dashboard with system metrics, algorithm distribution, and activity feed
   - Load testing interface connected to backend `/api/benchmark/run` endpoint
@@ -19,7 +19,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Built with React 18, TypeScript, Vite, Tailwind CSS, shadcn/ui
   - 6 comprehensive dashboard screenshots included in documentation
   
-- **🚰 Leaky Bucket Algorithm**: New traffic shaping algorithm for constant output rates
+- **Leaky Bucket Algorithm**: New traffic shaping algorithm for constant output rates
   - Queue-based processing at constant rate with no bursts allowed
   - Ideal for downstream service protection and SLA compliance
   - Redis backend support with atomic Lua scripts
@@ -28,7 +28,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Complete documentation with examples (cURL, Java, Python, Node.js, Go)
   - ADR-004 documenting design decisions and use cases
   
-- **🔄 Composite Rate Limiting**: Multi-algorithm composition with configurable logic
+- **Composite Rate Limiting**: Multi-algorithm composition with configurable logic
   - Combine multiple algorithms (Token Bucket, Sliding Window, Fixed Window, Leaky Bucket)
   - 5 combination logic types: ALL_MUST_PASS, ANY_CAN_PASS, WEIGHTED_AVERAGE, HIERARCHICAL_AND, PRIORITY_BASED
   - Component-level results with detailed breakdown
@@ -38,7 +38,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Complete examples and documentation
   - ADR-005 with architecture decision rationale
   
-- **🌍 Geographic Rate Limiting**: Location-aware rate limiting with compliance zone support
+- **Geographic Rate Limiting**: Location-aware rate limiting with compliance zone support
   - Multi-CDN header support (CloudFlare, AWS CloudFront, Azure CDN)
   - Automatic compliance zone detection (GDPR, CCPA, PIPEDA)
   - Country and region-based rate limiting rules

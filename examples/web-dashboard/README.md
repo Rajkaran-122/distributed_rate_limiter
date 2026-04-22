@@ -4,23 +4,23 @@ A comprehensive, real-time dashboard for monitoring and managing distributed rat
 
 ![Dashboard Preview](public/screenshots/dashboard-preview.png)
 
-## 🚀 Features
+## Features
 
-### 📊 Real-time Monitoring Dashboard
+### Real-time Monitoring Dashboard
 - **Live Metrics**: Real-time tracking of active keys, requests per second, success rates
 - **Interactive Charts**: Time-series visualization with 5-second updates
 - **Algorithm Performance**: Compare Token Bucket, Sliding Window, Fixed Window, and Leaky Bucket algorithms
 - **Activity Feed**: Live stream of rate limiting decisions and events
 - **Health Monitoring**: Backend connectivity and Redis health status
 
-### 🔧 Algorithm Simulation & Testing
+### Algorithm Simulation & Testing
 - **Algorithm Comparison**: Side-by-side testing of different rate limiting algorithms
 - **Traffic Pattern Simulation**: Generate steady, bursty, spike, or custom traffic patterns
 - **Real-time Visualization**: Live charts showing token levels and request handling
 - **Performance Analytics**: Detailed statistics on rejection rates, response times, and efficiency
 - **Interactive Configuration**: Adjust capacity, refill rates, and time windows on the fly
 
-### 📈 Advanced Analytics
+### Advanced Analytics
 - **Historical Data Analysis**: Performance trends over configurable time ranges (1h, 24h, 7d, 30d)
 - **Top Keys Analysis**: Identify most active keys and their usage patterns
 - **Algorithm Performance Metrics**: Memory usage, efficiency scores, and throughput comparison
@@ -28,7 +28,7 @@ A comprehensive, real-time dashboard for monitoring and managing distributed rat
 - **Smart Alerts**: Automated notifications for spikes, degradation, and anomalies
 - **Data Export**: CSV and JSON export functionality for external analysis
 
-### 🔑 API Key Management
+### API Key Management
 - **Comprehensive Key Management**: Create, view, edit, and delete API keys
 - **Advanced Access Control**: IP whitelisting/blacklisting support
 - **Usage Statistics**: Track total requests, success rates, and rate limiting events
@@ -36,7 +36,7 @@ A comprehensive, real-time dashboard for monitoring and managing distributed rat
 - **Access Logs**: Detailed request history with IP addresses and response times
 - **Key Regeneration**: Secure key rotation functionality
 
-### ⚙️ Configuration Management
+### Configuration Management
 - **Global Configuration**: System-wide defaults for capacity, refill rates, and cleanup intervals
 - **Per-Key Configuration**: Individual rate limiting rules for specific keys
 - **Pattern-Based Rules**: Wildcard pattern matching for flexible configuration
@@ -44,7 +44,7 @@ A comprehensive, real-time dashboard for monitoring and managing distributed rat
 - **Configuration Visualization**: Interactive hierarchy display
 - **Import/Export**: Backup and restore configurations via JSON/CSV
 
-### 🧪 Load Testing Suite
+### Load Testing Suite
 - **Traffic Pattern Generation**: Constant, ramp-up, spike, and step-load patterns
 - **Configurable Parameters**: Request rate, duration, concurrency, and timeout settings
 - **Real-time Monitoring**: Live metrics during test execution
@@ -52,7 +52,7 @@ A comprehensive, real-time dashboard for monitoring and managing distributed rat
 - **Historical Test Results**: Compare performance across different test runs
 - **Test Configuration Management**: Save and reuse test configurations
 
-### 🎨 User Experience
+### User Experience
 - **Modern UI**: Clean, responsive design with dark/light theme support
 - **Keyboard Shortcuts**: Efficient navigation with hotkeys (Alt+D for Dashboard, Alt+A for Algorithms, etc.)
 - **Mobile Responsive**: Optimized for desktop, tablet, and mobile devices
@@ -60,7 +60,7 @@ A comprehensive, real-time dashboard for monitoring and managing distributed rat
 - **Real-time Updates**: Live data streaming with WebSocket-like polling
 - **Error Handling**: Graceful error states with retry mechanisms
 
-## 🛠 Technology Stack
+## Technology Stack
 
 ### Frontend
 - **React 18** - Modern React with hooks and concurrent features
@@ -87,7 +87,7 @@ A comprehensive, real-time dashboard for monitoring and managing distributed rat
 - **Authentication** - Basic auth for admin endpoints
 - **CORS Support** - Cross-origin resource sharing configuration
 
-## 🔌 Backend Integration Architecture
+## Backend Integration Architecture
 
 ### Real Backend APIs (✅ Production Ready)
 
@@ -165,7 +165,6 @@ The dashboard connects to a distributed rate limiter backend running on **http:/
 - **Future**: See [Analytics Feature Roadmap](#analytics-feature-roadmap)
 
 #### **Algorithms Page** (`/algorithms`)
-- **Status**: 🎓 **Educational Client-Side Simulation**
 - **Purpose**: Interactive algorithm comparison and visualization
 - **Implementation**: `AlgorithmSimulator` class with accurate algorithm logic
 - **Use Case**: Learning tool for understanding rate limiting behavior
@@ -255,7 +254,7 @@ To implement real analytics features, the backend needs:
 
 See [GitHub Issue #XXX](https://github.com/uppnrise/distributed-rate-limiter/issues) for implementation tracking.
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - **Node.js 18+** and npm
@@ -552,7 +551,7 @@ Interactive educational tool for understanding and comparing rate limiting algor
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - [shadcn/ui](https://ui.shadcn.com/) for the excellent component library
 - [Recharts](https://recharts.org/) for beautiful, composable charts
