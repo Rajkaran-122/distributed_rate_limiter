@@ -1,4 +1,4 @@
-﻿package com.Rajkaran_122.distributedratelimiter;
+package com.Rajkaran_122.distributedratelimiter;
 
 import org.springframework.boot.test.context.TestConfiguration;
 import org.springframework.boot.testcontainers.service.connection.ServiceConnection;

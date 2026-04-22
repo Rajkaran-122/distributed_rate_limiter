@@ -1,4 +1,4 @@
-﻿package com.Rajkaran_122.distributedratelimiter.adaptive;
+package com.Rajkaran_122.distributedratelimiter.adaptive;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -17,7 +17,7 @@ import java.util.concurrent.ConcurrentHashMap;
 @Component
 public class UserBehaviorModeler {
 
-    private static final Logger logger = LoggerFactory.getLogger(UserBehaviorModeler.class);
+//     private static final Logger logger = LoggerFactory.getLogger(UserBehaviorModeler.class);
 
     // Store request events for behavior analysis
     private final Map<String, List<RequestEvent>> requestHistory = new ConcurrentHashMap<>();

@@ -1,4 +1,4 @@
-﻿package com.Rajkaran_122.distributedratelimiter.config;
+package com.Rajkaran_122.distributedratelimiter.config;
 
 import com.Rajkaran_122.distributedratelimiter.security.SecurityFilter;
 import org.springframework.beans.factory.annotation.Autowired;

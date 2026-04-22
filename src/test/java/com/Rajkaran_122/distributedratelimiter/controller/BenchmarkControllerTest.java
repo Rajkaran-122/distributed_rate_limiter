@@ -1,4 +1,4 @@
-﻿package com.Rajkaran_122.distributedratelimiter.controller;
+package com.Rajkaran_122.distributedratelimiter.controller;
 
 import com.Rajkaran_122.distributedratelimiter.models.BenchmarkRequest;
 import com.Rajkaran_122.distributedratelimiter.models.BenchmarkResponse;
@@ -220,7 +220,7 @@ class BenchmarkControllerTest {
         assertTrue(meetsLowTarget, "Should meet low performance target");
 
         // The high target might not be met depending on system resources
-        boolean meetsHighTarget = benchmarkResponse.meetsPerformanceTarget(1000.0); // 1000 req/sec
+//         boolean meetsHighTarget = benchmarkResponse.meetsPerformanceTarget(1000.0); // 1000 req/sec
         // Don't assert this as it depends on system capabilities
     }
 }

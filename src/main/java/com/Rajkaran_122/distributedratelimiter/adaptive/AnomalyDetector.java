@@ -1,4 +1,4 @@
-﻿package com.Rajkaran_122.distributedratelimiter.adaptive;
+package com.Rajkaran_122.distributedratelimiter.adaptive;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

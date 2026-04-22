@@ -1,4 +1,4 @@
-﻿package com.Rajkaran_122.distributedratelimiter.documentation;
+package com.Rajkaran_122.distributedratelimiter.documentation;
 
 import org.junit.jupiter.api.Test;
 

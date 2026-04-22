@@ -1,10 +1,8 @@
-﻿package com.Rajkaran_122.distributedratelimiter.ratelimit;
+package com.Rajkaran_122.distributedratelimiter.ratelimit;
 
-import org.awaitility.Awaitility;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import java.util.concurrent.TimeUnit;
 
 import static org.junit.jupiter.api.Assertions.*;
 

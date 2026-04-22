@@ -1,13 +1,10 @@
-﻿package com.Rajkaran_122.distributedratelimiter.adaptive;
+package com.Rajkaran_122.distributedratelimiter.adaptive;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
-import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 
-import java.util.HashMap;
-import java.util.Map;
 
 import static org.junit.jupiter.api.Assertions.*;
 

@@ -1,4 +1,4 @@
-﻿package com.Rajkaran_122.distributedratelimiter.ratelimit;
+package com.Rajkaran_122.distributedratelimiter.ratelimit;
 
 import java.util.concurrent.atomic.AtomicInteger;
 

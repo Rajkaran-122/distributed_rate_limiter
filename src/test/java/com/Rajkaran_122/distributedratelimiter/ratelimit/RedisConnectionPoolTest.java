@@ -1,4 +1,4 @@
-﻿package com.Rajkaran_122.distributedratelimiter.ratelimit;
+package com.Rajkaran_122.distributedratelimiter.ratelimit;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -11,7 +11,6 @@ import org.testcontainers.junit.jupiter.Testcontainers;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.connection.RedisConnectionFactory;
 import org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory;
-import org.springframework.data.redis.connection.lettuce.LettucePoolingClientConfiguration;
 
 import static org.junit.jupiter.api.Assertions.*;
 

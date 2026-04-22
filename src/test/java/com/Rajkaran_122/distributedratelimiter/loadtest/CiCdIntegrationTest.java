@@ -1,4 +1,4 @@
-﻿package com.Rajkaran_122.distributedratelimiter.loadtest;
+package com.Rajkaran_122.distributedratelimiter.loadtest;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.DisplayName;
@@ -26,12 +26,12 @@ class CiCdIntegrationTest {
     @DisplayName("Should support GitHub Actions environment variables")
     void testGitHubActionsEnvironment() {
         // Test CI environment detection
-        String originalCI = System.getenv("CI");
-        String originalGitHubActions = System.getenv("GITHUB_ACTIONS");
+//         String originalCI = System.getenv("CI");
+//         String originalGitHubActions = System.getenv("GITHUB_ACTIONS");
 
         try {
             // Simulate GitHub Actions environment
-            Map<String, String> env = System.getenv();
+//             Map<String, String> env = System.getenv();
 
             // Verify we can detect CI environment
             String ciDetection = System.getProperty("ci.environment", "local");

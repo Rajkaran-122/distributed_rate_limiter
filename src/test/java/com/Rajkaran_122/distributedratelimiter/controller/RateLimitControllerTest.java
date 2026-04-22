@@ -1,4 +1,4 @@
-﻿package com.Rajkaran_122.distributedratelimiter.controller;
+package com.Rajkaran_122.distributedratelimiter.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.Rajkaran_122.distributedratelimiter.models.RateLimitRequest;
@@ -18,7 +18,6 @@ import com.Rajkaran_122.distributedratelimiter.ratelimit.RateLimiterService;
 
 import static org.mockito.Mockito.mock;
 import static org.mockito.ArgumentMatchers.any;
-import static org.mockito.ArgumentMatchers.anyString;
 import static org.mockito.Mockito.when;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;

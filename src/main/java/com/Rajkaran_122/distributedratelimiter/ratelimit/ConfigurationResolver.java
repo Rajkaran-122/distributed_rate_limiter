@@ -1,4 +1,4 @@
-﻿package com.Rajkaran_122.distributedratelimiter.ratelimit;
+package com.Rajkaran_122.distributedratelimiter.ratelimit;
 
 import com.Rajkaran_122.distributedratelimiter.schedule.ScheduleManagerService;
 import org.springframework.stereotype.Service;

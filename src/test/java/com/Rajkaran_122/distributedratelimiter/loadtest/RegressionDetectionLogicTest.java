@@ -1,4 +1,4 @@
-﻿package com.Rajkaran_122.distributedratelimiter.loadtest;
+package com.Rajkaran_122.distributedratelimiter.loadtest;
 
 import com.Rajkaran_122.distributedratelimiter.models.PerformanceBaseline;
 import com.Rajkaran_122.distributedratelimiter.models.PerformanceRegressionResult;

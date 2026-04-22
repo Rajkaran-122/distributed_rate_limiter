@@ -1,4 +1,4 @@
-﻿package com.Rajkaran_122.distributedratelimiter.schedule;
+package com.Rajkaran_122.distributedratelimiter.schedule;
 
 import org.junit.jupiter.api.Test;
 

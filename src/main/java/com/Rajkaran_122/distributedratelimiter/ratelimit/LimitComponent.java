@@ -1,4 +1,4 @@
-﻿package com.Rajkaran_122.distributedratelimiter.ratelimit;
+package com.Rajkaran_122.distributedratelimiter.ratelimit;
 
 /**
  * Represents a single rate limiting component within a composite rate limiter.

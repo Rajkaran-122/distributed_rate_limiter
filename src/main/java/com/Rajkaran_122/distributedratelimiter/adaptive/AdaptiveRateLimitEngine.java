@@ -1,4 +1,4 @@
-﻿package com.Rajkaran_122.distributedratelimiter.adaptive;
+package com.Rajkaran_122.distributedratelimiter.adaptive;
 
 import com.Rajkaran_122.distributedratelimiter.ratelimit.ConfigurationResolver;
 import com.Rajkaran_122.distributedratelimiter.ratelimit.RateLimitConfig;

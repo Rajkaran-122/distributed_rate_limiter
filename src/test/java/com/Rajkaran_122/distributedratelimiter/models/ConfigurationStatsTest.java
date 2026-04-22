@@ -1,4 +1,4 @@
-﻿package com.Rajkaran_122.distributedratelimiter.models;
+package com.Rajkaran_122.distributedratelimiter.models;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

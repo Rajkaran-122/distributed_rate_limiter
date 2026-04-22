@@ -1,4 +1,4 @@
-﻿package com.Rajkaran_122.distributedratelimiter.schedule;
+package com.Rajkaran_122.distributedratelimiter.schedule;
 
 import com.Rajkaran_122.distributedratelimiter.ratelimit.RateLimitConfig;
 import java.time.Instant;

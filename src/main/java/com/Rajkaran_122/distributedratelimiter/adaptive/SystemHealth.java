@@ -1,4 +1,4 @@
-﻿package com.Rajkaran_122.distributedratelimiter.adaptive;
+package com.Rajkaran_122.distributedratelimiter.adaptive;
 
 /**
  * System health metrics for adaptive rate limiting decisions

@@ -1,4 +1,4 @@
-﻿package com.Rajkaran_122.distributedratelimiter.ratelimit;
+package com.Rajkaran_122.distributedratelimiter.ratelimit;
 
 import com.Rajkaran_122.distributedratelimiter.models.CompositeRateLimitResponse;
 import org.junit.jupiter.api.Test;
@@ -11,7 +11,6 @@ import java.util.Arrays;
 import java.util.Map;
 
 import static org.junit.jupiter.api.Assertions.*;
-import static org.mockito.ArgumentMatchers.*;
 import static org.mockito.Mockito.*;
 
 class CompositeRateLimiterServiceTest {

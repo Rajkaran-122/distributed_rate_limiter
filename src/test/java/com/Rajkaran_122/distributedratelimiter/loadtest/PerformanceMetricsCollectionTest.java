@@ -1,4 +1,4 @@
-﻿package com.Rajkaran_122.distributedratelimiter.loadtest;
+package com.Rajkaran_122.distributedratelimiter.loadtest;
 
 import com.Rajkaran_122.distributedratelimiter.models.PerformanceBaseline;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -8,7 +8,6 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.BeforeEach;
 
 import java.time.LocalDateTime;
-import java.util.Map;
 
 import static org.junit.jupiter.api.Assertions.*;
 

@@ -1,4 +1,4 @@
-﻿package com.Rajkaran_122.distributedratelimiter.adaptive;
+package com.Rajkaran_122.distributedratelimiter.adaptive;
 
 /**
  * User behavior analysis for adaptive rate limiting

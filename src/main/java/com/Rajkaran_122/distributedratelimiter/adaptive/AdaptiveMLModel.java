@@ -1,4 +1,4 @@
-﻿package com.Rajkaran_122.distributedratelimiter.adaptive;
+package com.Rajkaran_122.distributedratelimiter.adaptive;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -15,11 +15,11 @@ import java.util.Map;
 @Component
 public class AdaptiveMLModel {
 
-    private static final Logger logger = LoggerFactory.getLogger(AdaptiveMLModel.class);
+//     private static final Logger logger = LoggerFactory.getLogger(AdaptiveMLModel.class);
 
-    private static final double MIN_CONFIDENCE_THRESHOLD = 0.7;
-    private static final double MAX_ADJUSTMENT_FACTOR = 2.0;
-    private static final double MIN_ADJUSTMENT_FACTOR = 0.5;
+//     private static final double MIN_CONFIDENCE_THRESHOLD = 0.7;
+//     private static final double MAX_ADJUSTMENT_FACTOR = 2.0;
+//     private static final double MIN_ADJUSTMENT_FACTOR = 0.5;
 
     /**
      * Predict adaptation decision based on multiple signals

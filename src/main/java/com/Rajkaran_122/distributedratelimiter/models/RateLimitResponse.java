@@ -1,4 +1,4 @@
-﻿package com.Rajkaran_122.distributedratelimiter.models;
+package com.Rajkaran_122.distributedratelimiter.models;
 
 public class RateLimitResponse {
     private final String key;

@@ -1,7 +1,5 @@
-﻿package com.Rajkaran_122.distributedratelimiter.ratelimit;
+package com.Rajkaran_122.distributedratelimiter.ratelimit;
 
-import com.Rajkaran_122.distributedratelimiter.models.RateLimitRequest;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -109,7 +107,7 @@ class ConcurrentPerformanceTest {
         long startTime = System.nanoTime();
 
         for (int i = 0; i < threadCount; i++) {
-            final int threadId = i;
+//             final int threadId = i;
             executor.submit(() -> {
                 try {
                     for (int j = 0; j < requestsPerThread; j++) {

@@ -1,4 +1,4 @@
-﻿package com.Rajkaran_122.distributedratelimiter.demo;
+package com.Rajkaran_122.distributedratelimiter.demo;
 
 import com.Rajkaran_122.distributedratelimiter.geo.GeographicConfigurationResolver;
 import com.Rajkaran_122.distributedratelimiter.geo.GeographicRateLimitService;

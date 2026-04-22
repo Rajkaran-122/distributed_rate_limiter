@@ -1,4 +1,4 @@
-﻿package com.Rajkaran_122.distributedratelimiter.schedule;
+package com.Rajkaran_122.distributedratelimiter.schedule;
 
 /**
  * Configuration for gradual transitions between rate limits.

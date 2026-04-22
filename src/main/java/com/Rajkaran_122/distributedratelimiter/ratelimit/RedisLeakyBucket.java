@@ -1,4 +1,4 @@
-﻿package com.Rajkaran_122.distributedratelimiter.ratelimit;
+package com.Rajkaran_122.distributedratelimiter.ratelimit;
 
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.core.script.DefaultRedisScript;
@@ -14,6 +14,7 @@ import java.util.concurrent.CompletableFuture;
  * Uses Lua scripts for atomic queue operations and consistent leak rate
  * processing.
  */
+    @SuppressWarnings({"rawtypes", "unchecked", "resource", "all"})
 public class RedisLeakyBucket implements RateLimiter {
 
     private final String key;

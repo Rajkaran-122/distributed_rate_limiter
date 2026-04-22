@@ -1,4 +1,4 @@
-﻿package com.Rajkaran_122.distributedratelimiter.documentation;
+package com.Rajkaran_122.distributedratelimiter.documentation;
 
 import io.swagger.v3.oas.models.OpenAPI;
 import org.junit.jupiter.api.Test;

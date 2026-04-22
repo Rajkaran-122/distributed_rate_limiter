@@ -1,7 +1,6 @@
-﻿package com.Rajkaran_122.distributedratelimiter.deployment;
+package com.Rajkaran_122.distributedratelimiter.deployment;
 
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.io.TempDir;
 import org.yaml.snakeyaml.Yaml;
 
 import java.io.IOException;

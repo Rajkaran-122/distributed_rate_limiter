@@ -1,4 +1,4 @@
-﻿package com.Rajkaran_122.distributedratelimiter.monitoring;
+package com.Rajkaran_122.distributedratelimiter.monitoring;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -60,7 +60,7 @@ public class MetricsAndHealthIntegrationTest {
                                 "http://localhost:" + port + "/metrics", MetricsResponse.class).getBody();
 
                 long baselineAllowed = baselineMetrics != null ? baselineMetrics.getTotalAllowedRequests() : 0;
-                long baselineDenied = baselineMetrics != null ? baselineMetrics.getTotalDeniedRequests() : 0;
+//                 long baselineDenied = baselineMetrics != null ? baselineMetrics.getTotalDeniedRequests() : 0;
 
                 // Make some rate limit requests
                 HttpHeaders headers = new HttpHeaders();

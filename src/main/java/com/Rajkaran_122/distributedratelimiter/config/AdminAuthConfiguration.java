@@ -1,4 +1,4 @@
-﻿package com.Rajkaran_122.distributedratelimiter.config;
+package com.Rajkaran_122.distributedratelimiter.config;
 
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;

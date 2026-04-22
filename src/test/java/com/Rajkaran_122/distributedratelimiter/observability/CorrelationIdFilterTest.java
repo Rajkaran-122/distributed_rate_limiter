@@ -1,4 +1,4 @@
-﻿package com.Rajkaran_122.distributedratelimiter.observability;
+package com.Rajkaran_122.distributedratelimiter.observability;
 
 import ch.qos.logback.classic.Level;
 import ch.qos.logback.classic.Logger;
@@ -17,7 +17,6 @@ import org.springframework.mock.web.MockHttpServletResponse;
 import jakarta.servlet.ServletException;
 import java.io.IOException;
 import java.util.List;
-import java.util.UUID;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

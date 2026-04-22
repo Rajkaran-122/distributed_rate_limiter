@@ -1,4 +1,4 @@
-﻿package com.Rajkaran_122.distributedratelimiter;
+package com.Rajkaran_122.distributedratelimiter;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

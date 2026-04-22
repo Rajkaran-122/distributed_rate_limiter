@@ -1,4 +1,4 @@
-﻿package com.Rajkaran_122.distributedratelimiter.ratelimit;
+package com.Rajkaran_122.distributedratelimiter.ratelimit;
 
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.core.script.DefaultRedisScript;
@@ -12,6 +12,7 @@ import java.util.List;
  * Redis-based distributed fixed window implementation.
  * Uses Lua scripts for atomic operations.
  */
+    @SuppressWarnings({"rawtypes", "unchecked", "resource", "all"})
 public class RedisFixedWindow implements RateLimiter {
 
     private final String key;

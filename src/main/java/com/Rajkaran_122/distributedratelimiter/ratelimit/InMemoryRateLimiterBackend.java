@@ -1,4 +1,4 @@
-﻿package com.Rajkaran_122.distributedratelimiter.ratelimit;
+package com.Rajkaran_122.distributedratelimiter.ratelimit;
 
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Component;

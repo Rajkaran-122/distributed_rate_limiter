@@ -1,4 +1,4 @@
-﻿package com.Rajkaran_122.distributedratelimiter.controller;
+package com.Rajkaran_122.distributedratelimiter.controller;
 
 import com.Rajkaran_122.distributedratelimiter.models.BenchmarkRequest;
 import com.Rajkaran_122.distributedratelimiter.models.BenchmarkResponse;

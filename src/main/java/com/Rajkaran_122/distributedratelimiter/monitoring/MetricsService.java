@@ -1,4 +1,4 @@
-﻿package com.Rajkaran_122.distributedratelimiter.monitoring;
+package com.Rajkaran_122.distributedratelimiter.monitoring;
 
 import com.Rajkaran_122.distributedratelimiter.models.MetricsResponse;
 import org.slf4j.Logger;

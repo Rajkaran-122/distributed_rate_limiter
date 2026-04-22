@@ -1,4 +1,4 @@
-﻿package com.Rajkaran_122.distributedratelimiter.models;
+package com.Rajkaran_122.distributedratelimiter.models;
 
 import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotNull;

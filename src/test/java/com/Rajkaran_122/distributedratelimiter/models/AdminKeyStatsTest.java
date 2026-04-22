@@ -1,4 +1,4 @@
-﻿package com.Rajkaran_122.distributedratelimiter.models;
+package com.Rajkaran_122.distributedratelimiter.models;
 
 import com.Rajkaran_122.distributedratelimiter.ratelimit.RateLimitAlgorithm;
 import org.junit.jupiter.api.DisplayName;

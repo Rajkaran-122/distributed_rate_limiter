@@ -1,4 +1,4 @@
-﻿package com.Rajkaran_122.distributedratelimiter.config;
+package com.Rajkaran_122.distributedratelimiter.config;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Configuration;

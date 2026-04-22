@@ -1,4 +1,4 @@
-﻿package com.Rajkaran_122.distributedratelimiter.ratelimit;
+package com.Rajkaran_122.distributedratelimiter.ratelimit;
 
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;
@@ -92,7 +92,7 @@ public class LeakyBucket implements RateLimiter {
         // In a real leaky bucket, this would be asynchronous, but the RateLimiter
         // interface is synchronous, so we calculate if the request would be processed
 
-        long currentTime = System.currentTimeMillis();
+//         long currentTime = System.currentTimeMillis();
         long estimatedProcessingTime = calculateEstimatedProcessingTime();
 
         // If estimated processing time exceeds max queue time, reject

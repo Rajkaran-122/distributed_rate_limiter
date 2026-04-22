@@ -1,4 +1,4 @@
-﻿package com.Rajkaran_122.distributedratelimiter.controller;
+package com.Rajkaran_122.distributedratelimiter.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.Rajkaran_122.distributedratelimiter.config.SecurityConfiguration;

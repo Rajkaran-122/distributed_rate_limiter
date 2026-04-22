@@ -1,4 +1,4 @@
-﻿package com.Rajkaran_122.distributedratelimiter.loadtest
+package com.Rajkaran_122.distributedratelimiter.loadtest
 
 import io.gatling.core.Predef._
 import io.gatling.http.Predef._
