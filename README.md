@@ -1011,15 +1011,9 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Support
 
 - **Documentation**: Check the [docs/](docs/) directory for comprehensive guides
-- **Issues**: Report bugs and request features via [GitHub Issues](https://github.com/uppnrise/distributed-rate-limiter/issues)
+- **Issues**: Report bugs and request features via [GitHub Issues](https://github.com/Rajkaran-122/distributed_rate_limiter/issues)
 - **Examples**: See [docs/examples/](docs/examples/) for integration examples
 
 ---
 
-<div align="center">
 
-**Built for the developer community**
-
-[Star this project](https://github.com/uppnrise/distributed-rate-limiter) if you find it useful!
-
-</div>
