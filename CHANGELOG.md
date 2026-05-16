@@ -205,6 +205,6 @@ None - all changes are backward compatible. Existing configurations continue to 
 - Multi-architecture Docker images (amd64, arm64)
 - Production-ready logging and health checks
 
-[1.2.0]: https://github.com/uppnrise/distributed-rate-limiter/compare/v1.1.0...v1.2.0
-[1.1.0]: https://github.com/uppnrise/distributed-rate-limiter/compare/v1.0.0...v1.1.0
-[1.0.0]: https://github.com/uppnrise/distributed-rate-limiter/releases/tag/v1.0.0
+[1.2.0]: https://github.com/Rajkaran-122/distributed_rate_limiter/compare/v1.1.0...v1.2.0
+[1.1.0]: https://github.com/Rajkaran-122/distributed_rate_limiter/compare/v1.0.0...v1.1.0
+[1.0.0]: https://github.com/Rajkaran-122/distributed_rate_limiter/releases/tag/v1.0.0

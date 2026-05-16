@@ -31,7 +31,7 @@ spec:
             fsGroup: 1001
           containers:
           - name: backup
-            image: ghcr.io/uppnrise/distributed-rate-limiter:backup-tools
+            image: ghcr.io/Rajkaran-122/distributed_rate_limiter:backup-tools
             imagePullPolicy: Always
             command: ["/scripts/redis-backup.sh"]
             env:

@@ -156,7 +156,7 @@ services:
       retries: 3
 
   rate-limiter:
-    image: ghcr.io/uppnrise/distributed-rate-limiter:1.0.0
+    image: ghcr.io/Rajkaran-122/distributed_rate_limiter:1.0.0
     container_name: rate-limiter-app
     ports:
       - "8080:8080"
@@ -225,7 +225,7 @@ chmod +x quick-start.sh
 
 **Steps:**
 1. Run the Docker quick start script: `./docker-quick-start.sh`
-2. Or manually: `docker run -p 8080:8080 ghcr.io/uppnrise/distributed-rate-limiter:1.0.0`
+2. Or manually: `docker run -p 8080:8080 ghcr.io/Rajkaran-122/distributed_rate_limiter:1.0.0`
 
 ### Option 3: Build from Source
 
@@ -236,7 +236,7 @@ chmod +x quick-start.sh
 
 **Steps:**
 ```bash
-git clone https://github.com/uppnrise/distributed-rate-limiter.git
+git clone https://github.com/Rajkaran-122/distributed_rate_limiter.git
 cd distributed-rate-limiter
 ./mvnw clean install
 java -jar target/distributed-rate-limiter-1.2.0.jar
@@ -366,13 +366,13 @@ Major Feature Release - October 23, 2025
 ### JAR File (Recommended)
 ```bash
 # Download and run
-wget https://github.com/uppnrise/distributed-rate-limiter/releases/download/v1.2.0/distributed-rate-limiter-1.2.0.jar
+wget https://github.com/Rajkaran-122/distributed_rate_limiter/releases/download/v1.2.0/distributed-rate-limiter-1.2.0.jar
 java -jar distributed-rate-limiter-1.2.0.jar
 ```
 
 ### Docker
 ```bash
-docker run -p 8080:8080 ghcr.io/uppnrise/distributed-rate-limiter:1.0.0
+docker run -p 8080:8080 ghcr.io/Rajkaran-122/distributed_rate_limiter:1.0.0
 ```
 
 ### Quick Start Scripts
@@ -426,7 +426,7 @@ echo -e "${BLUE}Checksums:${NC}"
 cat *.sha256
 echo ""
 echo -e "${BLUE}Next steps:${NC}"
-echo "1. Go to: https://github.com/uppnrise/distributed-rate-limiter/releases"
+echo "1. Go to: https://github.com/Rajkaran-122/distributed_rate_limiter/releases"
 echo "2. Click 'Create a new release'"
 echo "3. Tag: v${VERSION}"
 echo "4. Upload all files from ${RELEASE_DIR}/"

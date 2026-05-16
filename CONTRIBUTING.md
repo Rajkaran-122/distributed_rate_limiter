@@ -353,8 +353,8 @@ Contributors will be:
 ## Contact
 
 - **Maintainer**: Rajkaran_122
-- **GitHub**: [@uppnrise](https://github.com/uppnrise)
-- **Issues**: [GitHub Issues](https://github.com/uppnrise/distributed-rate-limiter/issues)
+- **GitHub**: [@Rajkaran-122](https://github.com/Rajkaran-122)
+- **Issues**: [GitHub Issues](https://github.com/Rajkaran-122/distributed_rate_limiter/issues)
 
 ---
 

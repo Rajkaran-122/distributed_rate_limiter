@@ -97,7 +97,7 @@ const Analytics = () => {
           Historical analytics features require a time-series database backend (InfluxDB, Prometheus, or TimescaleDB) 
           with data aggregation endpoints. See the{" "}
           <a 
-            href="https://github.com/uppnrise/distributed-rate-limiter/blob/main/examples/web-dashboard/README.md#analytics-feature-roadmap" 
+            href="https://github.com/Rajkaran-122/distributed_rate_limiter/blob/main/examples/web-dashboard/README.md#analytics-feature-roadmap" 
             target="_blank" 
             rel="noopener noreferrer"
             className="underline font-semibold hover:text-blue-700 dark:hover:text-blue-300"

@@ -24,7 +24,7 @@ patchesStrategicMerge:
 - ingress-patch.yaml
 
 images:
-- name: ghcr.io/uppnrise/distributed-rate-limiter
+- name: ghcr.io/Rajkaran-122/distributed_rate_limiter
   newTag: v1.0.0  # Use specific version tags in production
 
 configMapGenerator:

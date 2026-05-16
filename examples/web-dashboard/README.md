@@ -252,7 +252,7 @@ To implement real analytics features, the backend needs:
    - Date range filtering
    - Compressed archive downloads
 
-See [GitHub Issue #XXX](https://github.com/uppnrise/distributed-rate-limiter/issues) for implementation tracking.
+See [GitHub Issue #XXX](https://github.com/Rajkaran-122/distributed_rate_limiter/issues) for implementation tracking.
 
 ## Quick Start
 

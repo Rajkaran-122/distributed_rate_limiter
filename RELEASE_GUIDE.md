@@ -35,7 +35,7 @@ docker-compose up -d
 # Standalone container
 docker run -p 8080:8080 \
   -e SPRING_DATA_REDIS_HOST=your-redis-host \
-  ghcr.io/uppnrise/distributed-rate-limiter:1.0.0
+  ghcr.io/Rajkaran-122/distributed_rate_limiter:1.0.0
 ```
 
 **Best For:**
@@ -61,7 +61,7 @@ Use the automated release script:
 
 # This creates:
 # - target/distributed-rate-limiter-1.0.0.jar
-# - Docker image: ghcr.io/uppnrise/distributed-rate-limiter:1.0.0
+# - Docker image: ghcr.io/Rajkaran-122/distributed_rate_limiter:1.0.0
 # - release-1.0.0/ directory with deployment package
 ```
 
@@ -121,7 +121,7 @@ spec:
     spec:
       containers:
       - name: rate-limiter
-        image: ghcr.io/uppnrise/distributed-rate-limiter:1.0.0
+        image: ghcr.io/Rajkaran-122/distributed_rate_limiter:1.0.0
         ports:
         - containerPort: 8080
         env:

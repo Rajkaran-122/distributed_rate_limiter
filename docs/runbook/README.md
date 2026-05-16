@@ -18,7 +18,7 @@ This runbook provides step-by-step procedures for operating and troubleshooting 
 ### Service Overview
 - **Application**: Distributed Rate Limiter
 - **Purpose**: Token bucket based rate limiting with Redis backend
-- **Repository**: https://github.com/uppnrise/distributed-rate-limiter
+- **Repository**: https://github.com/Rajkaran-122/distributed_rate_limiter
 - **Monitoring**: Grafana Dashboard, Prometheus Alerts
 
 ### Key Endpoints

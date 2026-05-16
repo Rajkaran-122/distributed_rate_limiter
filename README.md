@@ -13,7 +13,7 @@
 [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.5.4-brightgreen.svg)](https://spring.io/projects/spring-boot)
 [![Redis](https://img.shields.io/badge/Redis-7.x-red.svg)](https://redis.io/)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE.md)
-[![Build Status](https://github.com/uppnrise/distributed-rate-limiter/workflows/CI%2FCD%20Pipeline/badge.svg)](https://github.com/uppnrise/distributed-rate-limiter/actions)
+[![Build Status](https://github.com/Rajkaran-122/distributed_rate_limiter/workflows/CI%2FCD%20Pipeline/badge.svg)](https://github.com/Rajkaran-122/distributed_rate_limiter/actions)
 
 [Download](#installation) • [Documentation](#documentation) • [Quick Start](#quick-start) • [Examples](#examples)
 
@@ -190,10 +190,10 @@ Educational page for understanding rate limiting algorithms:
 
 ```bash
 # Download the latest release
-wget https://github.com/uppnrise/distributed-rate-limiter/releases/download/v1.0.0/distributed-rate-limiter-1.0.0.jar
+wget https://github.com/Rajkaran-122/distributed_rate_limiter/releases/download/v1.0.0/distributed-rate-limiter-1.0.0.jar
 
 # Verify checksum (optional)
-wget https://github.com/uppnrise/distributed-rate-limiter/releases/download/v1.0.0/distributed-rate-limiter-1.0.0.jar.sha256
+wget https://github.com/Rajkaran-122/distributed_rate_limiter/releases/download/v1.0.0/distributed-rate-limiter-1.0.0.jar.sha256
 sha256sum -c distributed-rate-limiter-1.0.0.jar.sha256
 ```
 
@@ -201,17 +201,17 @@ sha256sum -c distributed-rate-limiter-1.0.0.jar.sha256
 
 ```bash
 # Run with Docker Compose (includes Redis)
-wget https://github.com/uppnrise/distributed-rate-limiter/releases/download/v1.0.0/docker-compose.yml
+wget https://github.com/Rajkaran-122/distributed_rate_limiter/releases/download/v1.0.0/docker-compose.yml
 docker-compose up -d
 
 # Or run the image directly
-docker run -p 8080:8080 ghcr.io/uppnrise/distributed-rate-limiter:1.0.0
+docker run -p 8080:8080 ghcr.io/Rajkaran-122/distributed_rate_limiter:1.0.0
 ```
 
 ### Option 3: Build from Source
 
 ```bash
-git clone https://github.com/uppnrise/distributed-rate-limiter.git
+git clone https://github.com/Rajkaran-122/distributed_rate_limiter.git
 cd distributed-rate-limiter
 ./mvnw clean install
 java -jar target/distributed-rate-limiter-1.0.0.jar
@@ -797,7 +797,7 @@ ratelimiter.security.ip.blacklist=192.168.1.100
 version: '3.8'
 services:
   rate-limiter:
-    image: ghcr.io/uppnrise/distributed-rate-limiter:1.0.0
+    image: ghcr.io/Rajkaran-122/distributed_rate_limiter:1.0.0
     ports:
       - "8080:8080"
     environment:
@@ -832,7 +832,7 @@ spec:
     spec:
       containers:
       - name: rate-limiter
-        image: ghcr.io/uppnrise/distributed-rate-limiter:1.0.0
+        image: ghcr.io/Rajkaran-122/distributed_rate_limiter:1.0.0
         ports:
         - containerPort: 8080
         env:
@@ -942,7 +942,7 @@ The project includes comprehensive integration tests using Testcontainers:
 
 ```bash
 # Clone the repository
-git clone https://github.com/uppnrise/distributed-rate-limiter.git
+git clone https://github.com/Rajkaran-122/distributed_rate_limiter.git
 cd distributed-rate-limiter
 
 # Install Java 21 (required)
@@ -1011,7 +1011,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Support
 
 - **Documentation**: Check the [docs/](docs/) directory for comprehensive guides
-- **Issues**: Report bugs and request features via [GitHub Issues](https://github.com/uppnrise/distributed-rate-limiter/issues)
+- **Issues**: Report bugs and request features via [GitHub Issues](https://github.com/Rajkaran-122/distributed_rate_limiter/issues)
 - **Examples**: See [docs/examples/](docs/examples/) for integration examples
 
 ---
@@ -1020,6 +1020,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 **Built for the developer community**
 
-[Star this project](https://github.com/uppnrise/distributed-rate-limiter) if you find it useful!
+[Star this project](https://github.com/Rajkaran-122/distributed_rate_limiter) if you find it useful!
 
 </div>

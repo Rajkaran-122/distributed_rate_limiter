@@ -18,7 +18,7 @@ NC='\033[0m' # No Color
 # Configuration
 VERSION="1.0.0"
 PROJECT_NAME="distributed-rate-limiter"
-DOCKER_REGISTRY="ghcr.io/uppnrise"
+DOCKER_REGISTRY="ghcr.io/Rajkaran-122"
 
 echo -e "${BLUE}📋 Release Configuration:${NC}"
 echo "  Version: ${VERSION}"
@@ -241,7 +241,7 @@ Configure via REST API or application properties. See CONFIGURATION.md for detai
 ## Support
 
 - Documentation: See included README.md and CONFIGURATION.md
-- Issues: https://github.com/uppnrise/distributed-rate-limiter/issues
+- Issues: https://github.com/Rajkaran-122/distributed_rate_limiter/issues
 - Examples: docs/examples/ directory in the main repository
 EOF
 

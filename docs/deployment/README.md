@@ -35,7 +35,7 @@ This guide covers various deployment options for the Distributed Rate Limiter se
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/uppnrise/distributed-rate-limiter.git
+   git clone https://github.com/Rajkaran-122/distributed_rate_limiter.git
    cd distributed-rate-limiter
    ```
 

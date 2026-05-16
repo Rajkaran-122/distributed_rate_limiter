@@ -210,7 +210,7 @@ class DeploymentTemplateValidationTest {
 
         Map<String, Object> container = containers.get(0);
         assertThat(container.get("name")).isEqualTo("rate-limiter");
-        assertThat(container.get("image")).isEqualTo("ghcr.io/uppnrise/distributed-rate-limiter:latest");
+        assertThat(container.get("image")).isEqualTo("ghcr.io/Rajkaran-122/distributed_rate_limiter:latest");
 
         // Check resource limits
         Map<String, Object> resources = (Map<String, Object>) container.get("resources");

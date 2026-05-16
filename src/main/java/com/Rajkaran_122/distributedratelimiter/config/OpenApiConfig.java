@@ -26,7 +26,7 @@ public class OpenApiConfig {
                                                 .version("0.0.1-SNAPSHOT")
                                                 .contact(new Contact()
                                                                 .name("Distributed Rate Limiter")
-                                                                .url("https://github.com/uppnrise/distributed-rate-limiter"))
+                                                                .url("https://github.com/Rajkaran-122/distributed_rate_limiter"))
                                                 .license(new License()
                                                                 .name("MIT License")
                                                                 .url("https://opensource.org/licenses/MIT")))

@@ -205,7 +205,7 @@ ls -la /backups/redis/
 1. **Image Pull Errors**
    ```bash
    # Check image availability
-   docker pull ghcr.io/uppnrise/distributed-rate-limiter:latest
+   docker pull ghcr.io/Rajkaran-122/distributed_rate_limiter:latest
    
    # Update image pull secrets if needed
    kubectl create secret docker-registry regcred \
@@ -291,7 +291,7 @@ kubectl patch hpa rate-limiter-hpa -n rate-limiter -p '{"spec":{"maxReplicas":15
 ### Rolling Updates
 ```bash
 # Update application image
-kubectl set image deployment/rate-limiter rate-limiter=ghcr.io/uppnrise/distributed-rate-limiter:v1.2.3 -n rate-limiter
+kubectl set image deployment/rate-limiter rate-limiter=ghcr.io/Rajkaran-122/distributed_rate_limiter:v1.2.3 -n rate-limiter
 
 # Monitor rollout
 kubectl rollout status deployment/rate-limiter -n rate-limiter
