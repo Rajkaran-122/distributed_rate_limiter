@@ -1016,10 +1016,12 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ---
 
-<div align="center">
 
+<<<<<<< HEAD
 **Built for the developer community**
 
 [Star this project](https://github.com/Rajkaran-122/distributed_rate_limiter) if you find it useful!
 
 </div>
+=======
+>>>>>>> a29b4598b40a2a9d40a8aa98d82a583faef0df80
