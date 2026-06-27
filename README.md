@@ -55,6 +55,25 @@ A production-ready distributed rate limiter supporting **five algorithms** (Toke
 
 ### API Documentation
 - **[Interactive API Documentation](http://localhost:8080/swagger-ui/index.html)** - Swagger UI (when running)
+
+<details>
+<summary><b>View Swagger UI Screenshots</b></summary>
+<br>
+<div align="center">
+  <img src="docs/images/swagger-ui-1.png" alt="Swagger UI Preview 1" width="800"/>
+  <br><br>
+  <img src="docs/images/swagger-ui-2.png" alt="Swagger UI Preview 2" width="800"/>
+  <br><br>
+  <img src="docs/images/swagger-ui-3.png" alt="Swagger UI Preview 3" width="800"/>
+  <br><br>
+  <img src="docs/images/swagger-ui-4.png" alt="Swagger UI Preview 4" width="800"/>
+  <br><br>
+  <img src="docs/images/swagger-ui-5.png" alt="Swagger UI Preview 5" width="800"/>
+  <br><br>
+  <img src="docs/images/swagger-ui-6.png" alt="Swagger UI Preview 6" width="800"/>
+</div>
+</details>
+
 - **[OpenAPI Specification](http://localhost:8080/v3/api-docs)** - Machine-readable API spec (when running)
 - **[Complete API Reference](docs/API.md)** - Comprehensive API documentation with examples
 
